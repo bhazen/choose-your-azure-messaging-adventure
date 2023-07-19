@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.ServiceBus.Sender", "AzureMessagingAdventure.ServiceBus.Sender\AzureMessagingAdventure.ServiceBus.Sender.csproj", "{59DC08AE-3AE7-4E45-9561-24DEF2125AEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.ServiceBus.Receiver", "ServiceBus.Receiver\AzureMessagingAdventure.ServiceBus.Receiver.csproj", "{67307565-3AB7-4E41-8BA4-55C1E1B82D60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.EventGrid.Sender", "AzureMessagingAdventure.EventGrid.Sender\AzureMessagingAdventure.EventGrid.Sender.csproj", "{3B84CAE0-4EF8-4099-84E3-4F6A981481B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.EventGrid.Receiver", "AzureMessagingAdventure.EventGrid.Receiver\AzureMessagingAdventure.EventGrid.Receiver.csproj", "{3ADD139A-D541-46B6-99F8-C572231C043A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.EventHub.Sender", "AzureMessagingAdventure.EventHub.Sender\AzureMessagingAdventure.EventHub.Sender.csproj", "{7448C77A-61FC-4F92-BDCA-68F58B254189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.EventHub.Receiver", "AzureMessagingAdventure.EventHub.Receiver\AzureMessagingAdventure.EventHub.Receiver.csproj", "{B1EA0809-793E-4E9C-BB6F-8128D1469C79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.Secrets", "AzureMessagingAdventure.SecretReader\AzureMessagingAdventure.Secrets.csproj", "{73E3AC04-3C81-48CC-BDC9-3D6EC8259356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59DC08AE-3AE7-4E45-9561-24DEF2125AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DC08AE-3AE7-4E45-9561-24DEF2125AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DC08AE-3AE7-4E45-9561-24DEF2125AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DC08AE-3AE7-4E45-9561-24DEF2125AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67307565-3AB7-4E41-8BA4-55C1E1B82D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67307565-3AB7-4E41-8BA4-55C1E1B82D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67307565-3AB7-4E41-8BA4-55C1E1B82D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67307565-3AB7-4E41-8BA4-55C1E1B82D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B84CAE0-4EF8-4099-84E3-4F6A981481B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B84CAE0-4EF8-4099-84E3-4F6A981481B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B84CAE0-4EF8-4099-84E3-4F6A981481B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B84CAE0-4EF8-4099-84E3-4F6A981481B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADD139A-D541-46B6-99F8-C572231C043A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADD139A-D541-46B6-99F8-C572231C043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADD139A-D541-46B6-99F8-C572231C043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADD139A-D541-46B6-99F8-C572231C043A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7448C77A-61FC-4F92-BDCA-68F58B254189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7448C77A-61FC-4F92-BDCA-68F58B254189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7448C77A-61FC-4F92-BDCA-68F58B254189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7448C77A-61FC-4F92-BDCA-68F58B254189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EA0809-793E-4E9C-BB6F-8128D1469C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EA0809-793E-4E9C-BB6F-8128D1469C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EA0809-793E-4E9C-BB6F-8128D1469C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EA0809-793E-4E9C-BB6F-8128D1469C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E3AC04-3C81-48CC-BDC9-3D6EC8259356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E3AC04-3C81-48CC-BDC9-3D6EC8259356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E3AC04-3C81-48CC-BDC9-3D6EC8259356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E3AC04-3C81-48CC-BDC9-3D6EC8259356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B161E2-A609-4B47-8ADC-647B283659FC}
+	EndGlobalSection
+EndGlobal
