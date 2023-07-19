@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.ServiceBus.Sender", "AzureMessagingAdventure.ServiceBus.Sender\AzureMessagingAdventure.ServiceBus.Sender.csproj", "{59DC08AE-3AE7-4E45-9561-24DEF2125AEC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.ServiceBus.Receiver", "ServiceBus.Receiver\AzureMessagingAdventure.ServiceBus.Receiver.csproj", "{67307565-3AB7-4E41-8BA4-55C1E1B82D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.ServiceBus.Receiver", "AzureMessagingAdventure.ServiceBus.Receiver\AzureMessagingAdventure.ServiceBus.Receiver.csproj", "{67307565-3AB7-4E41-8BA4-55C1E1B82D60}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureMessagingAdventure.EventGrid.Sender", "AzureMessagingAdventure.EventGrid.Sender\AzureMessagingAdventure.EventGrid.Sender.csproj", "{3B84CAE0-4EF8-4099-84E3-4F6A981481B3}"
 EndProject
