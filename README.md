@@ -16,7 +16,7 @@ Demos to support a talk on messaging options in Azure. None of this code is prod
 2. [Filtering Events](https://learn.microsoft.com/en-us/azure/event-grid/event-filtering)
 3. [Deliveries and Retries](https://learn.microsoft.com/en-us/azure/event-grid/delivery-and-retry)
 4. [Setting Up Custom Web Hook as an Event Handler](https://learn.microsoft.com/en-us/azure/event-grid/webhook-event-delivery)
-5. [Pull Delivery (currently in preview](https://learn.microsoft.com/en-us/azure/event-grid/pull-delivery-overview)
+5. [Pull Delivery (currently in preview)](https://learn.microsoft.com/en-us/azure/event-grid/pull-delivery-overview)
 6. [Pricing](https://azure.microsoft.com/en-us/pricing/details/event-grid/)
 
 ## Event Hub
