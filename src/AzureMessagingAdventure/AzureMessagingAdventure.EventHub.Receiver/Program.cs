@@ -39,7 +39,7 @@ namespace AzureMessagingAdventure.EventHub.Receiver
         private static Task ProcessEventAsync(ProcessEventArgs arg)
         {
             var eventDataContent = Encoding.UTF8.GetString(arg.Data.Body.ToArray());
-            Console.WriteLine($"Recieved contennt from partition {arg.Partition.PartitionId}, offset {arg.Data.Offset}: {eventDataContent}");
+            Console.WriteLine($"Recieved content from partition {arg.Partition.PartitionId}, offset {arg.Data.Offset}: {eventDataContent}");
             return Task.CompletedTask;
         }
     }
