@@ -48,12 +48,22 @@ namespace AzureMessagingAdventure.ServiceBus.Receiver
 
         private static Task ProcessErrorAsync(ProcessErrorEventArgs arg)
         {
+            if (arg.CancellationToken.IsCancellationRequested)
+            {
+                return Task.CompletedTask;
+            }
+
             Console.Error.WriteLine($"An error occurred processing message: {arg.Exception.Message}");
             return Task.CompletedTask;
         }
 
         private static Task ProcessMessageAsync(ProcessMessageEventArgs arg)
         {
+            if (arg.CancellationToken.IsCancellationRequested)
+            {
+                return Task.CompletedTask;
+            }
+
             var message = arg.Message;
             Console.WriteLine($"Received message: {message.SequenceNumber}, {message.Body}");
             return Task.CompletedTask;

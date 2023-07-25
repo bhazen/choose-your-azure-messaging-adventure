@@ -38,12 +38,22 @@ namespace AzureMessagingAdventure.EventHub.Receiver
 
         private static Task ProcessErrorAsync(ProcessErrorEventArgs arg)
         {
+            if (arg.CancellationToken.IsCancellationRequested)
+            {
+                return Task.CompletedTask;
+            }
+
             Console.Error.WriteLine($"Error processing event: ${arg.Exception.Message}");
             return Task.CompletedTask;
         }
 
         private static async Task ProcessEventAsync(ProcessEventArgs arg)
         {
+            if (arg.CancellationToken.IsCancellationRequested)
+            {
+                return;
+            }
+
             var partition = arg.Partition.PartitionId;
             var eventDataContent = Encoding.UTF8.GetString(arg.Data.Body.ToArray());
             Console.WriteLine($"Recieved content from partition {partition}, offset {arg.Data.Offset}: {eventDataContent}");
