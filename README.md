@@ -10,6 +10,7 @@ Demos to support a talk on messaging options in Azure. None of this code is prod
 4. [Dead Letter Queues](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues)
 5. [Pricing](https://azure.microsoft.com/en-us/pricing/details/service-bus/)
 6. [Blog Series on Using Service Bus with .NET Core](https://damienbod.com/2019/04/23/using-azure-service-bus-queues-with-asp-net-core-services/)
+7. [Service Bus Queues vs Storage Account Queues](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted)
 
 ## Event Grid
 1. [Official Documentation](https://learn.microsoft.com/en-us/azure/event-grid/overview)
